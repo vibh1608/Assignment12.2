@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.assignment122.MainActivity">
+
+    <TextView
+        android:id="@+id/Information"
+        android:text="Information"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="160dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_below="@+id/Information"
+        android:layout_marginTop="10dp"
+        android:hint="Enter name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="10dp"
+        android:hint="Enter age"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_below="@+id/age"
+        android:layout_marginTop="10dp"
+        android:hint="Enter phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="10dp"
+        android:hint="Enter city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_marginTop="10dp"
+        android:text="Save"
+        android:layout_marginLeft="160dp"
+        android:layout_below="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/Show"
+        android:layout_below="@+id/Save"
+        android:layout_marginLeft="160dp"
+        android:text="Show"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
